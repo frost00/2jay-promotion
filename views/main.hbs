@@ -1,0 +1,10 @@
+{{> partial2}}
+
+
+{{#if listExists}}
+<ul>
+  {{#each suggestedChamps}}
+  <li class={{this.lname}}>{{this.name}}</li>
+  {{/each}}
+</ul>
+{{/if}}
