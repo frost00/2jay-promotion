@@ -9,6 +9,19 @@
 <style>
 body {font-family: "Lato", sans-serif}
 .mySlides {display: none}
+html {
+  scroll-behavior: smooth;
+ }
+
+ a {
+  text-decoration: none;
+  color: black;
+ }
+
+ #down {
+  margin-top: 100%;
+  padding-bottom: 25%;
+}
 </style>
 <body>
 
@@ -19,7 +32,7 @@ body {font-family: "Lato", sans-serif}
     <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
     <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">BAND</a>
     <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">TOUR</a>
-    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+    <a  href="#down" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
     <div class="w3-dropdown-hover w3-hide-small">
       <button class="w3-padding-large w3-button" title="More">MORE <i class="fa fa-caret-down"></i></button>
       <div class="w3-dropdown-content w3-bar-block w3-card-4">
@@ -172,7 +185,7 @@ body {font-family: "Lato", sans-serif}
             </div>
           </div>
           <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
-          <button class="w3-button w3-black w3-section w3-right" type="submit">SEND</button>
+          <button class="w3-button w3-black w3-section w3-right" type="submit" id="down">SEND</button>
         </form>
       </div>
     </div>
