@@ -1,6 +1,5 @@
 const express = require("express");
 const app = express();
-const port = 8080;
 
 const handlebars = require('express-handlebars');
 
@@ -31,4 +30,4 @@ app.get('/',(req,res) =>{
 res.render('main',{layout: 'index'});
 });
 
-app.listen(port, () => console.log(`App listening to port ${port}`));
+app.listen(process.env.PORT||8080);
