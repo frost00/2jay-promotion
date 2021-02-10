@@ -9,7 +9,7 @@ var jsonParser = bodyParser.json();
 var urlencodedParser = bodyParser.urlencoded({extended:false});
 
 
-//set app to use handlebars engine
+//set appp to use handlebars engine
 app.set('view engine', 'hbs');
 
 //set handlebars config
